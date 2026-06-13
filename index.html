@@ -3,17 +3,183 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Google 搜尋驗證標籤（絕對保留） -->
     <meta name="google-site-verification" content="ewtIfo-nwhcsCEggex9vgjKmF7HLATN2PJ1616JP-zg" />
-    <title>0xseanlee 的個人主頁</title>
+    
+    <!-- Open Graph 社交媒體分享預覽 -->
+    <meta property="og:title" content="0xseanlee | Terminal Hub">
+    <meta property="og:description" content="Welcome to the matrix. 這是 0xseanlee 的極客自介空間與專案集散地。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://0xseanlee.github.io/">
+    
+    <title>0xseanlee_@_Terminal:~</title>
+    
+    <!-- CSS 框架與動畫庫 -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Noto+Sans+TC:wght@400;700&display=swap');
+        
+        body {
+            font-family: 'Fira Code', 'Noto Sans TC', monospace;
+            background-color: #000000;
+            color: #00ff00;
+        }
+
+        /* 駭客矩陣綠高對比發光特效 */
+        .matrix-glow {
+            text-shadow: 0 0 8px rgba(0, 255, 0, 0.6);
+        }
+        .matrix-border {
+            border: 1px solid #00ff00;
+            box-shadow: 0 0 10px rgba(0, 255, 0, 0.2);
+        }
+        .matrix-border:hover {
+            box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+            background-color: rgba(0, 255, 0, 0.05);
+        }
+
+        /* 自訂滾動條 */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+        ::-webkit-scrollbar-track {
+            background: #000000;
+        }
+        ::-webkit-scrollbar-thumb {
+            background: #00ff00;
+            border-radius: 3px;
+        }
+    </style>
 </head>
-<body class="bg-gray-900 text-white min-h-screen flex flex-col items-center justify-center">
-    <div class="text-center p-8 bg-gray-800 rounded-2xl shadow-2xl max-w-md border border-gray-700">
-        <h1 class="text-3xl font-black text-blue-400 mb-4">0xseanlee 的空間</h1>
-        <p class="text-gray-400 mb-6">歡迎來到我的 GitHub Pages 總首頁！</p>
-        <a href="/cap-score-calculator/" class="inline-block bg-blue-600 hover:bg-blue-700 text-white font-bold py-2 px-6 rounded-lg transition-colors">
-            👉 前往會考落點分析系統
-        </a>
+<body class="min-h-screen flex flex-col justify-between overflow-x-hidden selection:bg-[#00ff00] selection:text-black">
+
+    <!-- 終端機頂部狀態欄 -->
+    <div class="w-full border-b border-[#00ff00]/40 px-4 py-2 bg-[#050505] text-xs flex justify-between items-center opacity-80">
+        <div>
+            <span class="text-white">STATUS:</span> <span class="animate-pulse">● ONLINE</span> | 
+            <span class="text-white">HOST:</span> 0xseanlee-mainframe
+        </div>
+        <div class="hidden sm:block">
+            <span class="text-white">SECURE_LEVEL:</span> MAXIMUM
+        </div>
     </div>
+
+    <!-- 主要核心區塊 -->
+    <main class="max-w-4xl mx-auto px-6 py-12 flex-grow w-full">
+        
+        <!-- 個人頭部：駭客核心初始化 -->
+        <section class="text-center mb-16 pt-6">
+            <div class="inline-block p-1 rounded-full border border-[#00ff00] shadow-[0_0_15px_rgba(0,255,0,0.3)] mb-6" data-aos="zoom-in" data-aos-duration="1000">
+                <!-- 自動抓取你的 GitHub 大頭貼 -->
+                <img src="https://github.com/0xseanlee.png" alt="0xseanlee" class="w-24 h-24 rounded-full object-cover filter grayscale sepia hue-rotate-60 brightness-95">
+            </div>
+            
+            <h1 class="text-4xl md:text-5xl font-bold tracking-widest matrix-glow mb-4" data-aos="fade-down" data-aos-duration="800">
+                &gt;_0xseanlee
+            </h1>
+            
+            <p class="text-[#00ff00]/70 text-sm md:text-base max-w-xl mx-auto leading-relaxed border-l-2 border-[#00ff00] px-4 py-2 bg-[#050505]/50" data-aos="fade-up" data-aos-delay="200">
+                核心領域：計算機科學、腳本自動化、網路安全測試。<br>
+                正在構建高效率的數位工具，破解物理與虛擬世界中的效率邊界。
+            </p>
+        </section>
+
+        <!-- 社群網域聯絡矩陣門 -->
+        <section class="mb-16" data-aos="fade-up" data-aos-duration="800">
+            <h2 class="text-lg font-bold mb-6 tracking-wider text-white">
+                <i class="fas fa-network-wired mr-2"></i>[EXTERNAL_GATEWAYS] 社群與支援連結
+            </h2>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                
+                <!-- Instagram -->
+                <a href="https://www.instagram.com/0xseanlee/" target="_blank" class="matrix-border bg-black/60 rounded-xl p-4 flex items-center justify-between transition-all duration-300 group">
+                    <div class="flex items-center space-x-3">
+                        <i class="fab fa-instagram text-2xl group-hover:scale-110 transition-transform"></i>
+                        <span class="font-bold text-sm tracking-wide">Instagram</span>
+                    </div>
+                    <i class="fas fa-terminal text-xs opacity-50 group-hover:opacity-100"></i>
+                </a>
+
+                <!-- YouTube -->
+                <a href="https://www.youtube.com/@0xseanlee/" target="_blank" class="matrix-border bg-black/60 rounded-xl p-4 flex items-center justify-between transition-all duration-300 group">
+                    <div class="flex items-center space-x-3">
+                        <i class="fab fa-youtube text-2xl group-hover:scale-110 transition-transform"></i>
+                        <span class="font-bold text-sm tracking-wide">YouTube</span>
+                    </div>
+                    <i class="fas fa-terminal text-xs opacity-50 group-hover:opacity-100"></i>
+                </a>
+
+                <!-- Discord Support -->
+                <a href="https://discord.gg/zPCunfvvuF" target="_blank" class="matrix-border bg-black/60 rounded-xl p-4 flex items-center justify-between transition-all duration-300 group">
+                    <div class="flex items-center space-x-3">
+                        <i class="fab fa-discord text-2xl group-hover:scale-110 transition-transform"></i>
+                        <span class="font-bold text-sm tracking-wide">Discord Server</span>
+                    </div>
+                    <i class="fas fa-terminal text-xs opacity-50 group-hover:opacity-100"></i>
+                </a>
+
+            </div>
+        </section>
+
+        <!-- 開源與精選專案作品 -->
+        <section class="mb-12">
+            <h2 class="text-lg font-bold mb-6 tracking-wider text-white" data-aos="fade-right">
+                <i class="fas fa-code-branch mr-2"></i>[DEPLOYED_PROJECTS] 精選項目作品
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                
+                <!-- 專案卡片：落點分析系統 -->
+                <div class="matrix-border bg-black/40 rounded-2xl p-6 transition-all duration-300 flex flex-col justify-between" data-aos="fade-up" data-aos-delay="100">
+                    <div>
+                        <div class="flex justify-between items-center mb-4">
+                            <span class="text-xs bg-[#00ff00]/10 text-[#00ff00] border border-[#00ff00]/30 px-2 py-1 rounded">LIVE_TOOL</span>
+                            <span class="text-xs opacity-50">v1.1.0</span>
+                        </div>
+                        <h3 class="text-xl font-bold text-white mb-2 matrix-glow">
+                            會考成績與落點分析系統
+                        </h3>
+                        <p class="text-[#00ff00]/80 text-sm leading-relaxed mb-6">
+                            針對基北區會考落點深度打造。內嵌精準的數學、英文公式加權演算法，支援等級與答對題數雙重換算模式，一鍵分析出最具參考價值的志願排序。
+                        </p>
+                    </div>
+                    <a href="/cap-score-calculator/" class="inline-flex items-center text-sm font-bold border-b border-transparent hover:border-[#00ff00] pb-1 w-fit transition-all">
+                        EXECUTE_APP() <i class="fas fa-chevron-right ml-2 text-xs"></i>
+                    </a>
+                </div>
+
+                <!-- 專案預留位置 -->
+                <div class="border border-[#00ff00]/20 border-dashed rounded-2xl p-6 flex flex-col items-center justify-center text-center min-h-[220px]" data-aos="fade-up" data-aos-delay="300">
+                    <div class="w-10 h-10 rounded-full border border-[#00ff00]/30 flex items-center justify-center mb-3 opacity-60">
+                        <i class="fas fa-plus text-sm animate-pulse"></i>
+                    </div>
+                    <h3 class="text-[#00ff00]/50 font-bold text-sm mb-1">0x_PROJECT_BREWING</h3>
+                    <p class="text-[#00ff00]/40 text-xs max-w-[220px]">核心引擎升級中，自動化模組與下一個開源腳本載入預留。</p>
+                </div>
+
+            </div>
+        </section>
+
+    </main>
+
+    <!-- 終端機頁尾 -->
+    <footer class="w-full text-center py-6 border-t border-[#00ff00]/20 bg-[#020202] text-[10px] tracking-widest opacity-60">
+        <p>
+            &copy; 2026 0xseanlee. SYSTEM OVERRIDE SUCCESSFUL. ALL RIGHTS RESERVED.
+        </p>
+    </footer>
+
+    <!-- 動化庫初始化腳本 -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        // 初始化捲動動畫
+        AOS.init({
+            once: false, // 往下或往上捲動時都會重現動畫
+            mirror: true
+        });
+    </script>
 </body>
 </html>
