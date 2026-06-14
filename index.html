@@ -4,10 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     
-    <!-- Google 搜尋驗證標籤（絕對保留） -->
     <meta name="google-site-verification" content="ewtIfo-nwhcsCEggex9vgjKmF7HLATN2PJ1616JP-zg" />
     
-    <!-- Open Graph 社交媒體分享預覽 -->
     <meta property="og:title" content="0xseanlee | Terminal Hub">
     <meta property="og:description" content="Welcome to the matrix. 這是 0xseanlee 的極客自介空間與專案集散地。">
     <meta property="og:type" content="website">
@@ -15,7 +13,6 @@
     
     <title>0xseanlee:~</title>
     
-    <!-- CSS 框架與動畫庫 -->
     <script src="https://cdn.tailwindcss.com"></script>
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
@@ -57,7 +54,6 @@
 </head>
 <body class="min-h-screen flex flex-col justify-between overflow-x-hidden selection:bg-[#00ff00] selection:text-black">
 
-    <!-- 終端機頂部狀態欄 -->
     <div class="w-full border-b border-[#00ff00]/40 px-4 py-2 bg-[#050505] text-xs flex justify-between items-center opacity-80">
         <div>
             <span class="text-white">STATUS:</span> <span class="animate-pulse">● ONLINE</span> | 
@@ -68,13 +64,10 @@
         </div>
     </div>
 
-    <!-- 主要核心區塊 -->
     <main class="max-w-4xl mx-auto px-6 py-12 flex-grow w-full">
         
-        <!-- 個人頭部：駭客核心初始化 -->
         <section class="text-center mb-16 pt-6">
             <div class="inline-block p-1 rounded-full border border-[#00ff00] shadow-[0_0_15px_rgba(0,255,0,0.3)] mb-6" data-aos="zoom-in" data-aos-duration="1000">
-                <!-- 自動抓取你的 GitHub 大頭貼 -->
                 <img src="https://github.com/0xseanlee.png" alt="0xseanlee" class="w-24 h-24 rounded-full object-cover">
             </div>
             
@@ -82,7 +75,6 @@
                 0xseanlee
             </h1>
             
-            <!-- 微調：將 Email 包裝成可點擊聯絡的樣式 -->
             <div class="inline-block" data-aos="fade-up" data-aos-delay="200">
                 <a href="mailto:sean0970802201@gmail.com" class="text-[#00ff00]/90 text-sm md:text-base border-l-2 border-[#00ff00] px-4 py-2 bg-[#050505]/50 flex items-center gap-2 hover:bg-[#00ff00]/10 transition-all duration-300">
                     <span class="text-white text-xs opacity-60 font-mono">[EMAIL_CONTACT]:</span>
@@ -92,14 +84,11 @@
             </div>
         </section>
 
-        <!-- 我的社群 -->
         <section class="mb-16" data-aos="fade-up" data-aos-duration="800">
             <h2 class="text-lg font-bold mb-6 tracking-wider text-white">
                 <i class="fas fa-network-wired mr-2"></i>我的社群
             </h2>
             <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
-                
-                <!-- Instagram -->
                 <a href="https://www.instagram.com/0xseanlee/" target="_blank" class="matrix-border bg-black/60 rounded-xl p-4 flex items-center justify-between transition-all duration-300 group">
                     <div class="flex items-center space-x-3">
                         <i class="fab fa-instagram text-2xl group-hover:scale-110 transition-transform"></i>
@@ -107,8 +96,6 @@
                     </div>
                     <i class="fas fa-terminal text-xs opacity-50 group-hover:opacity-100"></i>
                 </a>
-
-                <!-- YouTube -->
                 <a href="https://www.youtube.com/@0xseanlee/" target="_blank" class="matrix-border bg-black/60 rounded-xl p-4 flex items-center justify-between transition-all duration-300 group">
                     <div class="flex items-center space-x-3">
                         <i class="fab fa-youtube text-2xl group-hover:scale-110 transition-transform"></i>
@@ -116,8 +103,6 @@
                     </div>
                     <i class="fas fa-terminal text-xs opacity-50 group-hover:opacity-100"></i>
                 </a>
-
-                <!-- Discord Support -->
                 <a href="https://discord.gg/zPCunfvvuF" target="_blank" class="matrix-border bg-black/60 rounded-xl p-4 flex items-center justify-between transition-all duration-300 group">
                     <div class="flex items-center space-x-3">
                         <i class="fab fa-discord text-2xl group-hover:scale-110 transition-transform"></i>
@@ -125,65 +110,101 @@
                     </div>
                     <i class="fas fa-terminal text-xs opacity-50 group-hover:opacity-100"></i>
                 </a>
-
             </div>
         </section>
 
-        <!-- 作品 -->
         <section class="mb-12">
             <h2 class="text-lg font-bold mb-6 tracking-wider text-white" data-aos="fade-right">
                 <i class="fas fa-code-branch mr-2"></i>作品
             </h2>
-            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
-                
-                <!-- 專案卡片：落點分析系統 -->
-                <div class="matrix-border bg-black/40 rounded-2xl p-6 transition-all duration-300 flex flex-col justify-between" data-aos="fade-up" data-aos-delay="100">
-                    <div>
-                        <div class="flex justify-between items-center mb-4">
-                            <span class="text-xs bg-[#00ff00]/10 text-[#00ff00] border border-[#00ff00]/30 px-2 py-1 rounded">LIVE_TOOL</span>
-                            <span class="text-xs opacity-50">v1.1.0</span>
-                        </div>
-                        <h3 class="text-xl font-bold text-white mb-2 matrix-glow">
-                            會考成績與落點分析系統
-                        </h3>
-                        <p class="text-[#00ff00]/80 text-sm leading-relaxed mb-6">
-                            針對基北區會考落點深度打造。內嵌精準的數學、英文公式加權演算法，支援等級與答對題數雙重換算模式，一鍵分析出最具參考價值的志願排序。
-                        </p>
-                    </div>
-                    <a href="/cap-score-calculator/" class="inline-flex items-center text-sm font-bold border-b border-transparent hover:border-[#00ff00] pb-1 w-fit transition-all">
-                        EXECUTE_APP() <i class="fas fa-chevron-right ml-2 text-xs"></i>
-                    </a>
+            
+            <div id="projects-container" class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                <div class="text-xs animate-pulse font-mono tracking-widest text-[#00ff00]/50 py-4">
+                    LOADING_PROJECT_MODULES...
                 </div>
-
-                <!-- 專案預留位置（Coming Soon） -->
-                <div class="border border-[#00ff00]/20 border-dashed rounded-2xl p-6 flex flex-col items-center justify-center text-center min-h-[220px]" data-aos="fade-up" data-aos-delay="300">
-                    <div class="w-10 h-10 rounded-full border border-[#00ff00]/30 flex items-center justify-center mb-3 opacity-60">
-                        <i class="fas fa-plus text-sm animate-pulse"></i>
-                    </div>
-                    <h3 class="text-[#00ff00]/50 font-bold text-sm mb-1">Coming Soon</h3>
-                    <p class="text-[#00ff00]/40 text-xs max-w-[220px]">核心引擎升級中，自動化模組與下一個開源腳本載入預留。</p>
-                </div>
-
             </div>
         </section>
 
     </main>
 
-    <!-- 終端機頁尾 -->
     <footer class="w-full text-center py-6 border-t border-[#00ff00]/20 bg-[#020202] text-[10px] tracking-widest opacity-60">
-        <p>
-            &copy; 2026 0xseanlee. SYSTEM OVERRIDE SUCCESSFUL. ALL RIGHTS RESERVED.
-        </p>
+        <p>&copy; 2026 0xseanlee. SYSTEM OVERRIDE SUCCESSFUL. ALL RIGHTS RESERVED.</p>
     </footer>
 
-    <!-- 動化庫初始化腳本 -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         // 初始化捲動動畫
-        AOS.init({
-            once: false, // 往下或往上捲動時都會重現動畫
-            mirror: true
-        });
+        function initAOS() {
+            AOS.init({
+                once: false,
+                mirror: true
+            });
+        }
+
+        // 核心動態載入：讀取 app.json
+        async function loadProjects() {
+            const container = document.getElementById('projects-container');
+            try {
+                // 讀取同目錄下的 app.json 檔案
+                const response = await fetch('./app.json');
+                if (!response.ok) throw new Error('Network response was not ok');
+                const projects = await response.json();
+                
+                let htmlContent = '';
+                
+                // 遍歷所有專案，動態生成 HTML
+                projects.forEach((project, index) => {
+                    const targetAttr = project.isExternal ? 'target="_blank"' : '';
+                    const delay = (index + 1) * 100;
+                    
+                    htmlContent += `
+                        <div class="matrix-border bg-black/40 rounded-2xl p-6 transition-all duration-300 flex flex-col justify-between" data-aos="fade-up" data-aos-delay="${delay}">
+                            <div>
+                                <div class="flex justify-between items-center mb-4">
+                                    <span class="text-xs bg-[#00ff00]/10 text-[#00ff00] border border-[#00ff00]/30 px-2 py-1 rounded">${project.tag}</span>
+                                    <span class="text-xs opacity-50">${project.version}</span>
+                                </div>
+                                <h3 class="text-xl font-bold text-white mb-2 matrix-glow">
+                                    ${project.title}
+                                </h3>
+                                <p class="text-[#00ff00]/80 text-sm leading-relaxed mb-6">
+                                    ${project.description}
+                                </p>
+                            </div>
+                            <a href="${project.url}" ${targetAttr} class="inline-flex items-center text-sm font-bold border-b border-transparent hover:border-[#00ff00] pb-1 w-fit transition-all">
+                                EXECUTE_APP() <i class="fas fa-chevron-right ml-2 text-xs"></i>
+                            </a>
+                        </div>
+                    `;
+                });
+
+                // 最後加上預留的 Coming Soon 卡片
+                const comingSoonDelay = (projects.length + 1) * 100;
+                htmlContent += `
+                    <div class="border border-[#00ff00]/20 border-dashed rounded-2xl p-6 flex flex-col items-center justify-center text-center min-h-[220px]" data-aos="fade-up" data-aos-delay="${comingSoonDelay}">
+                        <div class="w-10 h-10 rounded-full border border-[#00ff00]/30 flex items-center justify-center mb-3 opacity-60">
+                            <i class="fas fa-plus text-sm animate-pulse"></i>
+                        </div>
+                        <h3 class="text-[#00ff00]/50 font-bold text-sm mb-1">Coming Soon</h3>
+                        <p class="text-[#00ff00]/40 text-xs max-w-[220px]">核心引擎升級中，自動化模組與下一個開源腳本載入預留。</p>
+                    </div>
+                `;
+
+                // 將內容塞入容器
+                container.innerHTML = htmlContent;
+                
+                // 重新刷新 AOS 動畫，確保動態生成的卡片也有動畫特效
+                initAOS();
+
+            } catch (error) {
+                console.error('Error fetching sitemap or projects:', error);
+                container.innerHTML = `<div class="text-xs font-mono text-red-500">[ERROR]: FAILED_TO_LOAD_PROJECT_DATA</div>`;
+                initAOS();
+            }
+        }
+
+        // 網頁載入完成後執行
+        window.addEventListener('DOMContentLoaded', loadProjects);
     </script>
 </body>
 </html>
