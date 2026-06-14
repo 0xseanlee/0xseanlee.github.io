@@ -1,0 +1,18 @@
+[
+  {
+    "title": "會考成績與落點分析系統",
+    "version": "v1.1.0",
+    "tag": "LIVE_TOOL",
+    "description": "針對基北區會考落點深度打造。內嵌精準的數學、英文公式加權演算法，支援等級與答對題數雙重換算模式，一鍵分析出最具參考價值的志願排序。",
+    "url": "/cap-score-calculator/",
+    "isExternal": false
+  },
+  {
+    "title": "LifeTools",
+    "version": "v1.0.0",
+    "tag": "UTILITY",
+    "description": "整合日常所需的多功能數位工具箱，提升物理與虛擬世界中的效率邊界，各項實用模組持續擴充中。",
+    "url": "https://royaldevotee.github.io/LifeTools/",
+    "isExternal": true
+  }
+]
