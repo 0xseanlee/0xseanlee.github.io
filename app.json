@@ -1,15 +1,5 @@
 [
   {
-    "_comment": {
-      "title": "",
-      "version": "v",
-      "tag": "",
-      "description": "",
-      "url": "",
-      "isExternal": false
-    }
-  },
-  {
     "title": "會考成績與落點分析系統",
     "version": "v1.1.0",
     "tag": "LIVE_TOOL",
