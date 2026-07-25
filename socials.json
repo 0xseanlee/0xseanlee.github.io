@@ -1,0 +1,20 @@
+[
+  {
+    "title": "Instagram",
+    "url": "https://www.instagram.com/0xseanlee/",
+    "icon": "fab fa-instagram",
+    "isExternal": true
+  },
+  {
+    "title": "YouTube",
+    "url": "https://www.youtube.com/@0xseanlee/",
+    "icon": "fab fa-youtube",
+    "isExternal": true
+  },
+  {
+    "title": "Discord",
+    "url": "https://discord.gg/zPCunfvvuF",
+    "icon": "fab fa-discord",
+    "isExternal": true
+  }
+]
