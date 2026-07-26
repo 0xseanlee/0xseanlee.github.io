@@ -1,11 +1,11 @@
 [
   {
-    "title": "會考成績與落點分析系統",
-    "version": "v1.1.0",
-    "tag": "LIVE_TOOL",
-    "description": "（115會）針對基北區會考落點深度打造。內嵌精準的數學、英文公式加權演算法，支援等級與答對題數雙重換算模式，一鍵分析出最具參考價值的志願排序。",
-    "url": "/cap-score-calculator/",
-    "isExternal": false
+    "title": "match-3三消",
+    "version": "vAlpha",
+    "tag": "GAME",
+    "description": "一個有趣的三消遊戲",
+    "url": "https://matchthree3.github.io",
+    "isExternal": true
   },
   {
       "title": "英文接龍helper",
